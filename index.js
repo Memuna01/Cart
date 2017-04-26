@@ -17,7 +17,7 @@ $(document).ready(function () {
         "product11-cart": { "name": "Peach Easybag", "price": 5000 }, "product12-cart": { "name": "Brown Leather Schoolbag", "price": 9000 }
     };
 
-localStorage.clear();
+
     function setProductsData() {
         var products = JSON.parse(localStorage.getItem('shoppingCart'));
         var sum_counter = 0;
